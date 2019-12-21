@@ -13,112 +13,101 @@
     <title>Work Day Scheduler</title>
 </head>
 
-
-
-
 <body>
     <header class="jumbotron">
         <h1 class="display-3">Work Day Scheduler</h1>
         <p class="lead">A simple calendar app for scheduling your work day</p>
         <p id="currentDay" class="lead"></p>
+        <button id="clearBtn">Clear All</button>
     </header>
     <div class="container">
-        <!-- Timeblocks go here -->
-
         <div class="row">
-            <div class="col-md-1 hour" id="9a">9 AM
+            <div class="col-md-1 hour">9 AM
             </div>
-            <div class="col-md-10 time-block future">
-                <textarea class="description" name="desc9" cols="100"></textarea>
+            <div class="col-md-10 time-block future" data-time="9">
+                <textarea class="description" id="desc1" cols="100"></textarea>
             </div>
-            <button class="col-md-1 btn btn-primary saveBtn" type="submit" data-time="9">Button</button>
+            <button class="col-md-1 saveBtn">Save
+            </button>
         </div>
-
         <div class="row">
-            <div class="col-md-1 hour" id="10a">10 AM
+            <div class="col-md-1 hour">10 AM
             </div>
-            <div class="col-md-10 time-block future">
-                <textarea class="description" id="desc10" cols="100"></textarea>
+            <div class="col-md-10 time-block future" data-time="10">
+                <textarea class="description" id="desc2" cols="100"></textarea>
             </div>
-            <button class="col-md-1 btn btn-primary saveBtn" type="submit" data-time="10">Button</button>
+            <button class="col-md-1 saveBtn">Save
+            </button>
         </div>
-
         <div class="row">
-            <div class="col-md-1 hour" id="11a">11 AM
+            <div class="col-md-1 hour">11 AM
             </div>
-            <div class="col-md-10 time-block future">
-                <textarea class="description" id="desc11" cols="100"></textarea>
+            <div class="col-md-10 time-block future" data-time="11">
+                <textarea class="description" id="desc3" cols="100"></textarea>
             </div>
-            <button class="col-md-1 btn btn-primary saveBtn" type="submit" data-time="11">Button</button>
+            <button class="col-md-1 saveBtn">Save
+            </button>
         </div>
-
         <div class="row">
-            <div class="col-md-1 hour" id="12p">12 PM
+            <div class="col-md-1 hour">12 PM
             </div>
-            <div class="col-md-10 time-block future">
-                <textarea class="description" id="desc12" cols="100"></textarea>
+            <div class="col-md-10 time-block future" data-time="12">
+                <textarea class="description" id="desc4" cols="100"></textarea>
             </div>
-            <button class="col-md-1 btn btn-primary saveBtn" type="submit" data-time="12">Button</button>
+            <button class="col-md-1 saveBtn">Save
+            </button>
         </div>
-
         <div class="row">
-            <div class="col-md-1 hour" id="1p">1 PM
+            <div class="col-md-1 hour">1 PM
             </div>
-            <div class="col-md-10 time-block future">
-                <textarea class="description" id="desc13" cols="100"></textarea>
+            <div class="col-md-10 time-block future" data-time="13">
+                <textarea class="description" id="desc5" cols="100"></textarea>
             </div>
-            <button class="col-md-1 btn btn-primary saveBtn" type="submit" data-time="13">Button</button>
+            <button class="col-md-1 saveBtn">Save
+            </button>
         </div>
-
         <div class="row">
-            <div class="col-md-1 hour" id="2p">2 PM
+            <div class="col-md-1 hour">2 PM
             </div>
-            <div class="col-md-10 time-block future">
-                <textarea class="description" id="desc14" cols="100"></textarea>
+            <div class="col-md-10 time-block future" data-time="14">
+                <textarea class="description" id="desc6" cols="100"></textarea>
             </div>
-            <button class="col-md-1 btn btn-primary saveBtn" type="submit" data-time="14">Button</button>
+            <button class="col-md-1 saveBtn">Save
+            </button>
         </div>
-
         <div class="row">
-            <div class="col-md-1 hour" id="3p">3 PM
+            <div class="col-md-1 hour">3 PM
             </div>
-            <div class="col-md-10 time-block future">
-                <textarea class="description" id="desc15" cols="100"></textarea>
+            <div class="col-md-10 time-block future" data-time="15">
+                <textarea class="description" id="desc7" cols="100"></textarea>
             </div>
-            <button class="col-md-1 btn btn-primary saveBtn" type="submit" data-time="15">Button</button>
+            <button class="col-md-1 saveBtn">Save
+            </button>
         </div>
-
         <div class="row">
-            <div class="col-md-1 hour" id="4p">4 PM
+            <div class="col-md-1 hour">4 PM
             </div>
-            <div class="col-md-10 time-block future">
-                <textarea class="description" id="desc16" cols="100"></textarea>
+            <div class="col-md-10 time-block future" data-time="16">
+                <textarea class="description" id="desc8" cols="100"></textarea>
             </div>
-            <button class="col-md-1 btn btn-primary saveBtn" type="submit" data-time="16">Button</button>
+            <button class="col-md-1 saveBtn">Save
+            </button>
         </div>
-
         <div class="row">
-            <div class="col-md-1 hour" id="5p">5 PM
+            <div class="col-md-1 hour">5 PM
             </div>
-            <div class="col-md-10 time-block future">
-                <textarea class="description" id="desc17" cols="100"></textarea>
+            <div class="col-md-10 time-block future" data-time="17">
+                <textarea class="description" id="desc9" cols="100"></textarea>
             </div>
-            <button class="col-md-1 btn btn-primary saveBtn" type="submit" data-time="17">Button</button>
+            <button class="col-md-1 saveBtn">Save
+            </button>
         </div>
-
-
     </div>
-
-
-
-
-
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="script.js"> </script> <!-- Javascript link script main-->
-    <script src="moment.js"> </script> <!-- Javascript link moment-->
-
+    <script type="text/javascript" src="moment.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
