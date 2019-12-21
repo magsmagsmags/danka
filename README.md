@@ -47,7 +47,7 @@ SO THAT I can manage my time effectively
 
 # Screenshots
 * ![Screenshot](/assets/images/Screenshot1.png)
-* ![Screenshot](/assets/images/screenshot2.png)
+* ![Screenshot](/assets/images/Screenshot2.png)
 
 # Installation
 Visit the web app at: https://magsmagsmags.github.io/danka
