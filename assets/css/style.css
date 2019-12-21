@@ -51,7 +51,7 @@ body {
     background-color: #ff6961;
     color: white;
   }
-  
+  /*event box */
   .future {
     background-color: #77dd77;
     color: white;
@@ -77,22 +77,23 @@ body {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
+/* col 2 - text box */
   .description {
   width: 300px;
 }
-
+/* col 1 */
 .hour {
   width: 50px;
 }
-
+/* col 2 - event box*/
 .time-block {
   width: 325px;
 }
-
+/* col 2 - event box */
 .future{
   width: 325px;
 }
-
+/* col 3 - save button */
 .saveBtn {
   width: 50px;
 }
@@ -147,11 +148,5 @@ body {
   }
 
 
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-
-
-}
 
 
