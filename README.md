@@ -48,21 +48,20 @@ SO THAT I can manage my time effectively
 # Screenshots
 * ![Screenshot](/assets/images/Screenshot1.png)
 * ![Screenshot](/assets/images/screenshot2.png)
-* ![Screenshot](/assets/images/screenshot3.png)
-* ![Screenshot](/assets/images/screenshot4.png)
 
 # Installation
-Visit the web app at: https://magsmagsmags.github.io/lily/
+Visit the web app at: https://magsmagsmags.github.io/danka
 
 # How to use?
-1. Load the web app at https://magsmagsmags.github.io/lily/
-1. x
-1. x
-    1. x
-    1. x
-1. x
-    1. x
-1. x
+1. Load the web app at https://magsmagsmags.github.io/danka
+1. The first column of the scheduler diplays the hour (9am-5pm)
+1. The second column displays the event information for the corresponding hour
+    1. Column will be grey if in the past
+    1. Column will be red if in the present
+    1. Column will be green if in the future
+    1. Click on column to add text descripting your event
+1. Click on the "Save" button in the right column to save your event infomation in your browser's local storage
+1. Press the grey clear button at the top, center of the page to clear all saved data from your scheduler and local storage
 
 # Contribute
 Please reach out to me via Slack (Mags Kiefer) or at sheakiefer@gmail.com for code suggestions, critiques, feedback, or offers to collaborate. 
