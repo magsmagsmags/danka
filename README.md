@@ -48,7 +48,7 @@ SO THAT I can manage my time effectively
 # Screenshots
 * ![Screenshot](/assets/images/Screenshot1.png)
 * ![Screenshot](/assets/images/Screenshot2.png)
-* ![Screenshot](/assets/images/Screenshot3.gif)
+* ![Screenshot](/assets/images/Screenshot3.gif.gif)
 
 
 # Installation
